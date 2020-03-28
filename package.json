@@ -3,17 +3,28 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AleksieievVladyslav/course-service.git"
   },
-  "keywords": ["NURE", "course work", "service"],
+  "keywords": [
+    "NURE",
+    "course work",
+    "service"
+  ],
   "author": "Vladyslav Aleksieiev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AleksieievVladyslav/course-service/issues"
   },
-  "homepage": "https://github.com/AleksieievVladyslav/course-service#readme"
+  "homepage": "https://github.com/AleksieievVladyslav/course-service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
 }
