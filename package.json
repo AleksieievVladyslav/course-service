@@ -1,0 +1,19 @@
+{
+  "name": "course-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksieievVladyslav/course-service.git"
+  },
+  "keywords": ["NURE", "course work", "service"],
+  "author": "Vladyslav Aleksieiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksieievVladyslav/course-service/issues"
+  },
+  "homepage": "https://github.com/AleksieievVladyslav/course-service#readme"
+}
